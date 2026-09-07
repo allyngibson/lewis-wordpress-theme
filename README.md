@@ -1,4 +1,6 @@
 # Lewis WordPress Theme
+
+
 Lewis is a custom child theme, built off of [Shoreditch](https://wordpress.org/themes/shoreditch/https://www.example.com), that powered my website.
 
 Shoreditch, and its close cousin [Edin](https://wordpress.org/themes/edin/), were business-oriented themes that were released by Automattic by the official theme team in 2016. I liked the overall presentation of both, and I wanted a magazine-style front-end for my site to give it a more professional look.
