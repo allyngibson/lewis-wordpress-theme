@@ -1,0 +1,775 @@
+/*
+	Theme Name:     Lewis
+	Description:    Child theme for Shoreditch
+	Author:         Allyn Gibson
+	Author URI:     http: //www.allyngibson.net/
+	Template:       shoreditch
+	Version:        0.1-prealpha
+*/
+
+@import url("../shoreditch/style.css");
+
+body {
+	color: #2E2E2E;
+}
+
+@media screen and (min-width: 768px) {
+	body, button, input, select, textarea {
+		font-size: 18px;
+		font-size: 1.125rem;
+	}
+}
+
+blockquote { 
+	font-size: 18px;
+	font-size: 1.125rem;
+	line-height: 1.2;
+}
+
+@media screen and (min-width: 1440px) {
+	.entry-hero-wrapper,
+	.hentry-wrapper,
+	.site-content-wrapper,
+	.site-footer-wrapper,
+	.site-header-wrapper,
+	.site-content-wrapper .has-post-thumbnail .entry-header-wrapper,
+	.widget-area-wrapper {
+		/* max-width: 1200px; */
+		/* max-width: 75rem; */
+	}
+}
+
+i.genericon {
+	vertical-align: text-bottom;
+}
+
+/*--------------------------------------------------------------
+XX.0 Fonts
+--------------------------------------------------------------*/
+
+body, button, input, select, textarea {
+	font-family: Montserrat, sans-serif;
+	font-variant-numeric: oldstyle-nums;
+}
+
+.author-title {
+	font-family: Montserrat, sans-serif;
+}
+
+.comment-reply-title small {
+	font-family: Montserrat, sans-serif;
+}
+
+.site-title,
+.page-template-panel-page .entry-header h1,
+.page-template-panel-page .entry-header h2 {
+	font-family: 'Eagle Lake', 'Lucida Grande', script;
+}
+
+.hentry div#jp-relatedposts div.jp-relatedposts-items .jp-relatedposts-post-title {
+	font-family: Poppins, sans-serif;
+	font-weight: 700 !important;
+}
+
+h4.heading {
+	margin: 0 0 0.25rem;
+}
+
+@media screen and (min-width: 768px) {
+	h4.heading {
+		margin: 0 0 0.5rem;
+	}
+}
+
+/*--------------------------------------------------------------
+XX.0 Images
+--------------------------------------------------------------*/
+
+.entry-content .alignleft,
+.entry-content .alignright {
+	max-width: 60%;
+}
+
+.entry-content .alignright {
+	margin: 0 -100px 1.5em 2em;
+}
+
+.entry-content .alignleft {
+	float: left;
+	margin: 0 2em 1.5em -100px;
+}
+
+.post-content .wp-smiley {
+	padding: 0;
+	display: inline;
+	border: none;
+}
+
+img#wpstats {
+	display:none;
+}
+
+@media ( max-width: 1100px ) {
+	.entry-content .alignleft { margin-left: -50px; }
+	.entry-content .alignright { margin-right: -50px; }
+}
+
+@media ( max-width: 900px ) {
+	.entry-content .alignleft { margin-left: 0; }
+	.entry-content .alignright { margin-right: 0; }
+}
+
+@media ( max-width: 600px ) {
+	.entry-content .alignleft,
+	.entry-content .alignright {
+		max-width: 45%;
+	}
+	.blocks-gallery-item {
+		width: 100% !important;
+		margin-right: 0 !important;
+	}
+}
+
+@media ( max-width: 400px ) {
+	.entry-content .alignleft,
+	.entry-content .alignright {
+		width: 100%;
+		max-width: 100%;
+		display: block;
+		float: none;
+		margin-left: 0;
+		margin-right: 0;
+	}
+}
+
+/*--------------------------------------------------------------
+XX.0 Colors
+--------------------------------------------------------------*/
+
+blockquote {
+	border-left: 2px solid #0065BD;
+}
+
+mark,
+ins {
+	background: #0065BD;
+}
+
+button,
+input[type="button"],
+input[type="reset"],
+input[type="submit"] {
+	background: #0065BD;
+}
+
+.widget-footer-top-area button,
+.widget-footer-top-area input[type="button"],
+.widget-footer-top-area input[type="reset"],
+.widget-footer-top-area input[type="submit"] {
+	color: #0065BD;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+input[type="range"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="week"]:focus,
+input[type="time"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="color"]:focus,
+select:focus,
+textarea:focus {
+	outline: 2px solid #0065BD;
+}
+
+.search-form .search-submit:before {
+	background: #0065BD;
+}
+
+.site-title a {
+	color: #0065BD;
+}
+
+.site-info a:focus,
+.site-info a:hover {
+	color: #0065BD;
+}
+
+.widget-footer-top-area {
+	background: #0065BD;
+}
+
+a:focus,
+a:hover {
+	color: #0065BD;
+}
+
+.comment-metadata a:focus,
+.comment-metadata a:hover,
+.entry-footer a:focus,
+.entry-footer a:hover,
+.entry-header a:focus,
+.entry-header a:hover {
+	color: #0065BD;
+}
+
+.main-navigation .menu-item-has-children > a:after {
+	color: #0065BD;
+}
+
+.main-navigation a:focus,
+.main-navigation a:hover {
+	color: #0065BD;
+}
+
+.main-navigation .primary-menu .current_page_item > a,
+.main-navigation .primary-menu .current-menu-item > a,
+.main-navigation .primary-menu .current_page_ancestor > a {
+	border-color: #0065BD;
+}
+
+.post-navigation a:focus .post-title,
+.post-navigation a:hover .post-title {
+	color: #0065BD;
+}
+
+.comment-navigation .nav-previous a:before,
+.posts-navigation .nav-previous a:before,
+.comment-navigation .nav-next a:after,
+.posts-navigation .nav-next a:after {
+	color: #0065BD;
+}
+
+.featured-content .flex-control-paging a {
+	border: 2px solid #0065BD;
+}
+
+.featured-content .flex-control-paging a:hover,
+.featured-content .flex-control-paging .flex-active {
+	background: #0065BD;
+}
+
+.comment-reply-link:after {
+	color: #0065BD;
+}
+
+.site .wp-playlist-light a.wp-playlist-caption:focus,
+.site .wp-playlist-light a.wp-playlist-caption:hover {
+	color: #0065BD;
+}
+
+#infinite-footer {
+	background: #0065BD;
+}
+
+.site-main #infinite-handle span button,
+.site-main #infinite-handle span button:focus,
+.site-main #infinite-handle span button:hover {
+	background: #0065BD;
+}
+
+.infinite-loader .spinner div {
+	color: #0065BD;
+}
+
+.widget_akismet_widget .a-stats a:focus,
+.widget_akismet_widget .a-stats a:hover {
+	color: #0065BD;
+}
+
+.widget_goodreads div[class^="gr_custom_title"] a:focus,
+.widget_goodreads div[class^="gr_custom_title"] a:hover,
+.widget_goodreads div[class^=gr_custom_container] a:focus,
+.widget_goodreads div[class^=gr_custom_container] a:hover {
+	color: #0065BD;
+}
+
+.site .widget_wpcom_social_media_icons_widget a:hover,
+.site .widget_wpcom_social_media_icons_widget a:focus {
+	color: #0065BD;
+}
+
+.button {
+	background: #0065BD;
+}
+
+.button.minimal {
+	color: #0065BD;
+}
+
+.button.minimal:focus,
+.button.minimal:hover {
+	background: #0065BD;
+}
+
+.featured-content .hentry.has-post-thumbnail .button,
+.page-template-panel-page .hentry.has-post-thumbnail .button {
+	background: #0065BD;
+}
+
+.widget-footer-top-area .button {
+	color: #0065BD;
+}
+
+.featured-content .hentry.has-post-thumbnail .button:focus,
+.featured-content .hentry.has-post-thumbnail .button:hover,
+.page-template-panel-page .hentry.has-post-thumbnail .button:focus,
+.page-template-panel-page .hentry.has-post-thumbnail .button:hover {
+	color: #0065BD;
+}
+
+.featured-content .hentry.has-post-thumbnail .button.minimal:focus,
+.featured-content .hentry.has-post-thumbnail .button.minimal:hover,
+.page-template-panel-page .hentry.has-post-thumbnail .button.minimal:focus,
+.page-template-panel-page .hentry.has-post-thumbnail .button.minimal:hover {
+	background: #0065BD;
+}
+
+.widget-footer-top-area .button.minimal:focus,
+.widget-footer-top-area .button.minimal:hover {
+	color: #0065BD;
+}
+
+.main-navigation .button.minimal a:focus {
+	background: #0065BD;
+}
+
+.main-navigation .button.minimal a {
+	color: #0065BD;
+}
+
+
+/*--------------------------------------------------------------
+XX.0 Panel Page Template
+--------------------------------------------------------------*/
+
+.page-template-panel-page .entry-content a.noshadow {
+	box-shadow: none !important;
+}
+
+.page-template-panel-page div.sharedaddy {
+	display: none !important;
+}
+
+.nospace {
+	margin: 0 0 12px 0;
+	padding: 0;
+	list-style: none;
+}
+
+.page-template-panel-page .entry-footer. .edit-link {
+	display: none !important;
+}
+
+@media ( max-width: 600px ) {
+	.nospace {
+		margin-bottom: 0;
+	}
+}
+
+@media screen and (min-width: 600px) {
+	.page-template-panel-page .hentry {
+		padding-top: 3em;
+		padding-bottom: 0;
+	}
+}
+
+@media screen and (min-width: 896px) {
+	.page-template-panel-page .hentry {
+		padding-top: 3em;
+		padding-bottom: 0;
+	}
+}
+
+@media screen and (min-width: 1020px) {
+	.page-template-panel-page .hentry {
+		padding-top: 3em;
+		padding-bottom: 0;
+	}
+}
+
+/*--------------------------------------------------------------
+XX.0 Social Menu
+--------------------------------------------------------------*/
+
+.lewis-social-navigation {
+	-webkit-order: 2;
+	-ms-flex-order: 2;
+	order: 2;
+}
+
+.site .lewis-social-navigation ul {
+	font-size: 16px;
+	font-size: 1rem;
+	margin: 0 0 0.75em;
+}
+
+.site .lewis-social-navigation ul:before,
+.site .lewis-social-navigation ul:after {
+	content: "";
+	display: table
+}
+
+.site .lewis-social-navigation ul:after {
+	clear: both;
+}
+
+.site .lewis-social-navigation li {
+	display: block;
+	margin: 0 0.25em;
+	text-align: center;
+}
+
+.site .lewis-social-navigation li {
+	float: left;
+}
+
+.site .lewis-social-navigation li:first-child {
+	margin-left: 0;
+}
+
+.site .lewis-social-navigation li:last-child {
+	margin-right: 0;
+}
+
+.site .lewis-social-navigation a {
+	border: 1px solid #f3f3f3;
+	border-radius: 50%;
+	color: #7a7c84;
+	display: block;
+	font-size: 16px;
+	font-size: 1rem;
+	height: 2em;
+	position: relative;
+	width: 2em;
+}
+
+.site .lewis-social-navigation a:before {
+	left: 50%;
+	margin-left: -0.5em;
+	margin-top: -0.5em;
+	position: absolute;
+	top: 50%;
+}
+
+.site .lewis-social-navigation a:hover,
+.site .lewis-social-navigation a:focus {
+	color: #0065BD;
+}
+
+.social-menu li a::before {
+	content: '\f408';
+	font-family: 'FontAwesome';
+}
+
+.social-menu li a[href*="codepen.io"]::before {
+	content: '\f1cb';
+}
+
+.social-menu li a[href*="digg.com"]::before {
+	content: '\f1a6';
+}
+
+.social-menu li a[href*="dribbble.com"]::before {
+	content: '\f17d';
+}
+
+.social-menu li a[href*="dropbox.com"]::before {
+	content: '\f16b';
+}
+
+.social-menu li a[href*="facebook.com"]::before {
+	content: '\f09a';
+}
+
+.social-menu li a[href*="flickr.com"]::before {
+	content: '\f16e';
+}
+
+.social-menu li a[href*="github.com"]::before {
+	content: '\f09b';
+}
+
+.social-menu li a[href*="instagram.com"]::before {
+	content: '\f16d';
+}
+
+.social-menu li a[href*="last.fm"]::before {
+	content: '\f203';
+}
+
+.social-menu li a[href*="linkedin.com"]::before {
+	content: '\f0e1';
+}
+
+.social-menu li a[href*="pinterest.com"]::before {
+	content: '\f0d2';
+}
+
+.social-menu li a[href*="plus.google.com"]::before {
+	content: '\f0d5';
+}
+
+.social-menu li a[href*="reddit.com"]::before {
+	content: '\f1a2';
+}
+
+.social-menu li a[href*="tumblr.com"]::before {
+	content: '\f173';
+}
+
+.social-menu li a[href*="twitter.com"]::before {
+	content: '\f099';
+}
+
+.social-menu li a[href*="vimeo.com"]::before {
+	content: '\f194';
+}
+
+.social-menu li a[href*="wordpress.org"]::before,
+.social-menu li a[href*="wordpress.com"]::before {
+	content: '\f19a';
+}
+
+.social-menu li a[href*="youtube.com"]::before {
+	content: '\f167';
+}
+
+.social-menu li a[href*="mailto"]::before {
+	content: '\f0e0';
+}
+
+/*--------------------------------------------------------------
+XX.0 Calendar Archive
+--------------------------------------------------------------*/
+
+.calendar-archives .wp-calendar {
+	width: 100%;
+	color: #111;
+	text-align: center;
+}
+
+.calendar-archives .wp-calendar thead {
+	border-top: 1px solid #ddd;
+}
+
+.calendar-archives .wp-calendar,
+.calendar-archives .wp-calendar caption,
+.calendar-archives .wp-calendar tr,
+.calendar-archives .wp-calendar td,
+.calendar-archives .wp-calendar th {
+	text-align: center;
+}
+
+.calendar-archives .wp-calendar caption {
+	text-transform: capitalize;
+	color: #111;
+	padding-bottom: 4%;
+}
+
+.calendar-archives .wp-calendar th,
+.calendar-archives .wp-calendar td {
+	padding: 4% 2%;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+}
+
+.calendar-archives .wp-calendar thead th {
+	font-size: 0.75em;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #0065bd;
+}
+
+.calendar-archives .wp-calendar th:first-child,
+.calendar-archives .wp-calendar tbody td:first-child {
+	border-left: 1px solid #ddd;
+}
+
+.calendar-archives .wp-calendar tbody a:hover {
+	text-decoration: underline;
+}
+
+.calendar-archives .wp-calendar tfoot td { 
+	padding: 0; 
+	border: none !important;
+}
+.calendar-archives .wp-calendar tfoot #prev a {
+	text-align: left;
+}
+
+.calendar-archives .wp-calendar tfoot #next a {
+	text-align: right;
+}
+
+.calendar-archives .wp-calendar tfoot a {
+	display: block;
+	margin-top: 12px;
+	font-size: 0.75em;
+	font-weight: 900;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #111;
+}
+
+.calendar-archives .wp-calendar tfoot a:hover {
+	text-decoration: none;
+	color: #0065bd;
+}
+
+.calendargrid .post {
+	display: block;
+	width: 48.025%;
+	padding-bottom: 2.5%;
+	margin-top: 5%;
+	margin-left: 0;
+	float: left;
+	position: relative;
+	background-size: cover;
+	background-position: center;
+}
+
+.calendargrid .even {
+	margin-left: 3.95% !important;
+}
+
+@media ( max-width: 600px ) {
+	.calendargrid .post {
+		width: 100%;
+		padding-bottom: 2.5%;
+	}
+
+	.calendargrid .even {
+		margin-top: 0;
+		margin-left: 0 !important;
+	}
+}
+
+/*--------------------------------------------------------------
+XX.0 Recent Posts & Comments Widgets
+--------------------------------------------------------------*/
+
+.isleoflewis-widget-list a { 
+	display: block; 
+	min-height: 55px;
+	position: relative;
+}
+
+.isleoflewis-widget-list li {
+	padding-bottom: 12px;
+}
+
+.isleoflewis-widget-list .post-icon {
+	display: block;
+	width: 55px;
+	height: 55px;
+	padding: 2px;
+	background: #fff;
+	border: 1px solid #eee;
+	border-radius: 99px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.isleoflewis-widget-list .post-icon img {
+	display: block;
+	border-radius: 99px;
+}
+
+.isleoflewis-widget-list .post-icon .genericon {
+	position: absolute;
+	top: 50%;
+	margin-top: -8px;
+	left: 50%;
+	margin-left: -8px;
+}
+
+.isleoflewis-widget-list .inner {
+	padding-left: 65px;
+}
+
+.isleoflewis-widget-list .title {
+	line-height: 140%;
+	font-weight: 700;
+	/* color: #ffffff; */
+}
+
+.isleoflewis-widget-list .meta { 
+	margin-top: 3px; 
+	font-size: 0.75em;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #888;
+}
+
+.isleoflewis-widget-list .excerpt {
+	margin-top: 3px;
+	color: #666;
+	line-height: 130%;
+}
+
+.isleoflewis-widget-list a:hover .title {
+	text-decoration: underline;
+}
+
+/*--------------------------------------------------------------
+XX.0 Tags
+--------------------------------------------------------------*/
+
+.widget_tag_cloud .tagcloud a:hover {
+	background: #0065bd;
+	color: #f3f3f3;
+}
+
+/*--------------------------------------------------------------
+XX.0 WP-Instagram Widget
+--------------------------------------------------------------*/
+
+.instagram-pics {
+	list-style: none;
+	margin: 0;
+}
+
+.instagram-pics li {
+	float: left;
+	width: 50%;
+	padding: 2px;
+}
+
+.instagram-pics li:hover {
+	opacity: 0.7;
+}
+
+.null-instagram-feed p.clear {
+	clear: both;
+}
+
+/*--------------------------------------------------------------
+15.0 Good-bye Sidebar
+--------------------------------------------------------------*/
+
+@media screen and (min-width: 896px) {
+	body:not(.no-sidebar) .content-area {
+		padding-right: 0;
+		width: 100%;
+	}
+}
+
+/*--------------------------------------------------------------
+23.0 Media Queries
+--------------------------------------------------------------*/
+
+@media screen and (max-width:600px) {
+	#wpadminbar {
+		position: fixed !important;
+	}
+}
