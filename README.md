@@ -7,6 +7,6 @@ I did [some initial work then](http://www.allyngibson.com/?p=30020) on a child t
 
 And, except for a brief period where I rescued one of Sony's official _Spider-Man 3_ WordPress themes and updated it to be responsive aware and rethemed it for _[Spider-Man: No Way Home](http://www.allyngibson.com/?p=33491https://www.example.com)_, I stuck with Lewis [until early 2022](http://www.allyngibson.com/?p=33584), when I replaced with (at this writing) my current theme, Iona, essentially a rebuilt Lewis on a newer code base, [Varia](https://wordpress.com/theme/varia).
 
-(Lewis, Iona... you may notice a theme. There's another branch in this tree, Lindisfarne. The names have nothing to do with these places. The places themselves captured my imagination for their history, and they are places I would like someday to vist.)
+(Lewis, Iona... you may notice a theme. There's another branch in this tree, Lindisfarne. The theme names have nothing to do with these historical places. The places themselves captured my imagination for their history, and they are places I would like someday to visit.)
 
-I do not guarantee current results with this code, some of which is 6 to 8 years old, if not older (if it came from an even older theme), but I activated it and it seemed to work. It remains, to me in 2026, an attractive theme.
+I do not guarantee current results with this code, some of which is 6 to 8 years old, if not older (as some of it came from even older themes), but I activated it and it seemed to work. It remains, to me in 2026, an attractive theme.
