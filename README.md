@@ -1,6 +1,6 @@
 # Lewis WordPress Theme
 
-
+![Screenshot of the front page of my website running the Lewis theme. The header images shows the space shuttle Discovery at Udvar-Hazy. There's a photograph of me at Congressional Cemetery circa 2016, and a block of text from my introductory paragraph.](screenshot.jpg)
 Lewis is a custom child theme, built off of [Shoreditch](https://wordpress.org/themes/shoreditch/https://www.example.com), that powered my website.
 
 Shoreditch, and its close cousin [Edin](https://wordpress.org/themes/edin/), were business-oriented themes that were released by Automattic by the official theme team in 2016. I liked the overall presentation of both, and I wanted a magazine-style front-end for my site to give it a more professional look.
